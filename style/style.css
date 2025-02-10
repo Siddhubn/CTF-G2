@@ -33,7 +33,6 @@ header {
     background-blend-mode:difference;
     background-size: cover;
     font-size: 15px;
-    padding: 1rem;
     text-align: right;
     position: fixed;
     width: 100%;
@@ -384,6 +383,15 @@ footer {
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
+}
+
+.warning{
+    color:red;
+    background-color:black;
+    text-align: center;
+    font-family:bitter;
+    margin:0px;
+    padding:10px;
 }
 
 .image-holding{
@@ -969,8 +977,14 @@ footer {
     animation: fadeInUp 1.5s ease-in-out;
 }
 
+.faq-table{
+    border:2px solid aliceblue;
+    border-color:white;
+}
+
 .faq-table tr td{
     padding:1rem;
+    border:2px solid aliceblue;
 }
 
 .faq-section h2 {
